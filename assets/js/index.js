@@ -3,11 +3,15 @@ const $ = document.querySelector.bind(document);
 
 const btnToggleIntervalSlider = $('.btn-toggle-interval');
 const sliderImg = $('#slider-img');
-
-
+const elementTippy = $('#my-tippy')
+console.log(elementTippy);
 const app = {
 
     subNavHeader() {
+        elementTippy.onclick = () => {
+            elementTippy.classList.toggle('header-nav-item--active')
+        }
+
 
         tippy('#my-tippy', {
             hideOnClick: 'toggle',
@@ -88,6 +92,12 @@ const app = {
                             </div>
                         </div>
                     </div>
+                    <div class="wrapper__footer">
+                        <a class="wrapper__footer-link" href="#">
+                            <span>Xem sơ đồ trang</span>
+                            <i class="ti-angle-right"></i>
+                        </a>
+                    </div>
                 </div>`;
 
 
@@ -107,13 +117,9 @@ const app = {
             },
         })
     },
-    handleClickBtnToggleIntervalSlider() {
-
-
-    },
+    
 
     init() {
-        this.handleClickBtnToggleIntervalSlider();
         this.subNavHeader()
     },
 };
