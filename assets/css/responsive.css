@@ -1,0 +1,54 @@
+@media (max-width: 1082px) {
+    :root {
+        --page-padding: 0;
+    }
+    .footer-inner,
+    .v5-inner,
+    .v4-inner,
+    .v2-inner {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+
+
+
+@media (max-width: 767px) {
+    .v1__list {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .v1-img {
+        width: 20px;
+        height: 20px;
+        margin: 0 !important;
+    }
+    .v1__list-item {
+        width: 100%;
+    }
+    .v1__list-item .v1-link {
+        display: flex;
+    }
+
+    .v1__list-item .v1-link p {
+        text-align: left;
+    }
+}
+
+@media (min-width: 576px) {
+    .v2-card-title {
+        margin-top: 37px;
+    }
+}
+@media (max-width: 575px) {
+    .card-item {
+        margin-bottom: 37px;
+    }
+    
+    .v2-card-title {
+        margin-top: 2px;
+        
+    }
+    
+}

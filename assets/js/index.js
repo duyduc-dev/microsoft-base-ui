@@ -8,8 +8,9 @@ console.log(elementTippy);
 const app = {
 
     subNavHeader() {
+        const elementTippyActive = 'header-nav-item--active';
         elementTippy.onclick = () => {
-            elementTippy.classList.toggle('header-nav-item--active')
+            elementTippy.classList.toggle(elementTippyActive)
         }
 
 
@@ -113,7 +114,8 @@ const app = {
                 }
             },
             onClickOutside(instance, event) {
-                instance.hide()
+                instance.hide();
+                elementTippy.classList.remove(elementTippyActive)
             },
         })
     },
