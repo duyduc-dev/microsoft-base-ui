@@ -89,6 +89,7 @@ const app = {
                                     <li class="footer-item sub-item"><a href="#" class="footer-link">Bản tải xuống và bảo mật miễn phí</a></li>
                                     <li class="footer-item sub-item"><a href="#" class="footer-link">Giáo dục</a></li>
                                     <li class="footer-item sub-item"><a href="#" class="footer-link">Licensing</a></li>
+                                    <li class="footer-item sub-item"><a href="#" class="footer-link">Đặng Duy Đức - 2100008202</a></li>
                                 </ul>  
                             </div>
                         </div>
